@@ -40,13 +40,12 @@
                         </div>
                                  <div class="form-group row">
             <label class="col-md-2">性別</label>
-               <input type="radio" name="gender" value= "man"><b>男性</b>
-               <input type="radio" name="gender" value= "woman"><b>女性</b>
+               <input type="radio" name="gender" value= "0"><b>男性</b>
+               <input type="radio" name="gender" value= "1"><b>女性</b>
             </div>
             
              <label class="col-md-2">生年月日</label>
-            <form name="yyyymmdd" method="post" action="#">
-<select name="select">
+<select name="year">
 <option value="">--</option>
 <option value="1900">1900</option>
 <option value="1901">1901</option>
@@ -223,13 +222,12 @@
 </select>
 日 <br>
 <br>
-</form>
             
                                 <div class="form-group row">
                                     
             <label class="col-md-2">好きなのは？</label>
-               <input type="radio" name="gender" value= "man"><b>猫</b>
-               <input type="radio" name="gender" value= "woman"><b>犬</b>
+               <input type="radio" name="animal" value= "0"><b>犬</b>
+               <input type="radio" name="animal" value= "1"><b>猫</b>
             </div>
             
                         <div class="form-group row">
