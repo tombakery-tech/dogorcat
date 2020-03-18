@@ -10,6 +10,6 @@ class CommentController extends Controller
     //
     public function add()
     {
-        return view('admin.comment.create');
+        return view('comment.create');
     }
 }

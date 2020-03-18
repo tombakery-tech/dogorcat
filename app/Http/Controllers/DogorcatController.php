@@ -13,5 +13,17 @@ class DogorcatController extends Controller
       //indexを書き換えると色々なページが作れる
     }
     
+     public function comment()
+    {
+      return view('comment');
+      //indexを書き換えると色々なページが作れる
+    }
+    
+     public function error()
+    {
+      return view('error');
+      //indexを書き換えると色々なページが作れる
+    }
+    
    
 }

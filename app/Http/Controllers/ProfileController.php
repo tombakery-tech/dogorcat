@@ -3,28 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
 class ProfileController extends Controller
 {
     //
-    public function add()
+    public function profile()
     {
-        return view('admin.profile.create');
+        return view('profile');
     }
 
-    public function create()
+    public function email()
     {
-        return redirect('admin/profile/create');
+        return view('profile.email');
     }
 
-    public function edit()
+    public function password()
     {
-        return view('admin.profile.edit');
+        return view('profile.password');
     }
 
-    public function update()
-    {
-        return redirect('admin/profile/edit');
-    }
+   
 }
