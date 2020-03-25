@@ -15,13 +15,17 @@
 
  　　<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <a class="navbar-brand" href="{{ url('/login') }}">
+                    <button type="submit" class="btn btn-primary">
                                     {{ __('ログイン') }}
                             </button>
+                          </a>
                         </div>
   <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
+                                 <a class="navbar-brand" href="{{ url('/register') }}">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('新規登録') }}
                             </button>
+                          </a> 
                         </div>                        

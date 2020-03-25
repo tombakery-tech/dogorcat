@@ -27,3 +27,7 @@ Route::get('profile', 'ProfileController@profile');
 Route::get('profile/email', 'ProfileController@email');
 
 Route::get('profile/password', 'ProfileController@password');
+
+Route::get('comment', 'CommentController@add');
+Route::post('comment', 'CommentController@create');
+

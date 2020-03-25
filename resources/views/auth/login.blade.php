@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DogOrCat</title>
     </head>
-    <body>
+     <body>
         <h1>犬？猫？</h1>
         
     </body>
 </html>
 @extends('layouts.app')
+
+@section('title', '犬？猫？')
 
 @section('content')
 <div class="container">
